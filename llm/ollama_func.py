@@ -20,7 +20,8 @@ def stream_chat_response(prompt: str, model: str = 'smollm2:360m'):
     for chunk in stream:
         print(chunk['message']['content'], end='', flush=True)
 
+        
 # Example usage:
 #print(get_chat_response('Why is the sky blue?'))
-#stream_chat_response('Why is the sky blue?')
+stream_chat_response('Why is the sky blue?')
 
