@@ -1,7 +1,7 @@
 {
     "appName": "Paper Analyzer",
     "version": "0.0.1",
-    "llmName": "Smollm2:360m",
+    "llmName": "smollm2:360m",
     "knowledgeBase": "No idea yet",
     "outputFormat": "stream_md",
     "promptRecipe": "analyze_paper"
