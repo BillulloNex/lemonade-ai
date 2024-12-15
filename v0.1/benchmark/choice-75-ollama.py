@@ -24,7 +24,7 @@ class Agent:
 
     def execute(self):
         completion = chat(model=
-                        'llama3.2:1b',
+                        'smollm2:latest',
                         messages=self.messages,
                         options={"temperature":0}
         )
