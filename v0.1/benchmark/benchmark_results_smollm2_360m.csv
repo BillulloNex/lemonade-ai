@@ -1,0 +1,487 @@
+goal,context,options,difficulty,golden_answer,model_answer,is_correct
+go out for a picnic,look forward to see an old friend during picnic,"['neither option are applicable for the current situation', 'park along the street', 'try to park inside the park']",na,0,The correct answer is 1. park along the street.,False
+go out for a picnic,have a tight budget,"['neither option are applicable for the current situation', 'park along the street', 'try to park inside the park']",medium,1,The correct answer is 1. park along the street.,True
+go out for a picnic,have many foods and equipments for picnic,"['neither option are applicable for the current situation', 'park along the street', 'try to park inside the park']",medium,2,The correct answer is 1. park along the street.,False
+go out for a picnic,have valuable belongings on the car,"['neither option are applicable for the current situation', 'park along the street', 'try to park inside the park']",medium,2,The correct answer is 1. park along the street.,False
+go out for a picnic,see a long line of cars for park entrance,"['neither option are applicable for the current situation', 'park along the street', 'try to park inside the park']",hard,1,The correct answer is 1. park along the street.,True
+find a new job,want to have personalized suggestions,"['neither option are applicable for the current situation', 'find a job on the internet', 'ask your friends for some advice']",medium,2,The correct answer is 2. Ask your friends for some advice.,True
+find a new job,want to make as many attempts as possible,"['neither option are applicable for the current situation', 'find a job on the internet', 'ask your friends for some advice']",medium,1,"You must choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. find a job on the internet
+2. ask your friends for some advice
+3. try to park inside the park",True
+learn figure drawing,have a tight budget,"['neither option are applicable for the current situation', 'buy a new pencil', ""find a pencil in your school's art room""]",easy,2,"The correct answer is 1. park along the street, as it was mentioned in the context of learning figure drawing.",False
+learn figure drawing,have the class starting in 2 minutes,"['neither option are applicable for the current situation', 'buy a new pencil', ""find a pencil in your school's art room""]",medium,2,"The correct answer is 1. park along the street, as it was given by the GOAL to learn figure drawing.",False
+learn figure drawing,need the pencil for the whole semester,"['neither option are applicable for the current situation', 'buy a new pencil', ""find a pencil in your school's art room""]",hard,1,The correct answer is 2. Find a pencil in your school's art room.,False
+learn figure drawing,want a high-quality pencil,"['neither option are applicable for the current situation', 'buy a new pencil', ""find a pencil in your school's art room""]",hard,1,"The correct answer is 1. park along the street, as it meets both the GOAL (go out for a picnic) and the CONTEXT (have a tight budget). The other options are not applicable to this situation because they do not meet either of these criteria. Therefore, the correct answer is 1.
+
+The question was: ""What should I do if I want to learn figure drawing?""",True
+learn figure drawing,want to be a part-time painter or designer in the future,"['neither option are applicable for the current situation', 'buy a new pencil', ""find a pencil in your school's art room""]",na,0,The correct answer is 2. Find a pencil in your school's art room.,False
+have any pets,need to take the pet out tonight,"['neither option are applicable for the current situation', 'buy a pet carrier from a local pet store', 'buy a pet carrier from an online store']",medium,1,The correct answer is 1. park along the street.,True
+have any pets,want a co-branded carrier for favorite baseball team,"['neither option are applicable for the current situation', 'buy a pet carrier from a local pet store', 'buy a pet carrier from an online store']",hard,2,The correct answer is 2. buy a pet carrier from an online store.,True
+have a nerf gun war,have poor shooting skills,"['neither option are applicable for the current situation', 'only shoot at people in front of you', 'shoot at anyone within a distance of 1,000 feet']",medium,1,The correct answer is: 1. park along the street,True
+have a nerf gun war,stay at a far away location,"['neither option are applicable for the current situation', 'only shoot at people in front of you', 'shoot at anyone within a distance of 1,000 feet']",medium,2,The correct answer is: 1. park along the street,False
+have a nerf gun war,want to score as high as possible,"['neither option are applicable for the current situation', 'only shoot at people in front of you', 'shoot at anyone within a distance of 1,000 feet']",medium,2,The correct answer is: 1. park along the street,False
+have a nerf gun war,never played nerf gun war before,"['neither option are applicable for the current situation', 'only shoot at people in front of you', 'shoot at anyone within a distance of 1,000 feet']",na,0,The correct answer is: 1. park along the street,False
+take the sats in order to get into college,plan to go to Taylor Swift's concert after done with the SAT,"['neither option are applicable for the current situation', 'take a bus', 'call an uber']",na,0,"Choose the correct answer from the following options:
+
+OPTIONS:
+- park along the street, try to park inside the park, or take a bus.
+
+1. park along the street, take a bus; or call an Uber.
+2. take a bus; or call an uber",False
+take the sats in order to get into college,have a tight budget,"['neither option are applicable for the current situation', 'take a bus', 'call an uber']",medium,1,"The correct answer is 1. park along the street, as it's not available in the context of the given information. The GOAL is to get into college, so taking a bus or calling an Uber would be the most appropriate options for this situation.",True
+take the sats in order to get into college,slept over,"['neither option are applicable for the current situation', 'take a bus', 'call an uber']",hard,2,The correct answer is 2. Call an Uber.,True
+take the sats in order to get into college,want to review for the last time on the way,"['neither option are applicable for the current situation', 'take a bus', 'call an uber']",medium,2,The correct answer is 2. Call an Uber.,True
+know more about film,have a hard time understanding technical details,"['neither option are applicable for the current situation', 'read the whole research paper', 'read only the abstract and introduction part of the paper']",medium,2,"The correct answer is 2. Read the entire research paper, not just the abstract and introduction part.",True
+know more about film,have a long list of papers to read,"['neither option are applicable for the current situation', 'read the whole research paper', 'read only the abstract and introduction part of the paper']",easy,2,"The correct answer is 2. Read the entire research paper, not just the abstract and introduction part.",True
+know more about film,need an in-depth understanding,"['neither option are applicable for the current situation', 'read the whole research paper', 'read only the abstract and introduction part of the paper']",easy,1,"The correct answer is 2. Read the entire research paper, not just the abstract and introduction part.",False
+know more about film,is a fan of europe movies,"['neither option are applicable for the current situation', 'read the whole research paper', 'read only the abstract and introduction part of the paper']",na,0,The correct answer is 2. Read only the abstract and introduction part of the paper.,False
+sign new lease,have three young kids studying in the nearby school,"['neither option are applicable for the current situation', 'sign a long-term lease', 'sign the lease on a monthly or a quarterly basis, if possible']",hard,1,The correct answer is 1. park along the street.,True
+sign new lease,start as a phd student in the city,"['neither option are applicable for the current situation', 'sign a long-term lease', 'sign the lease on a monthly or a quarterly basis, if possible']",hard,1,The correct answer is 1. park along the street.,True
+sign new lease,is looking for new apartment to lease,"['neither option are applicable for the current situation', 'sign a long-term lease', 'sign the lease on a monthly or a quarterly basis, if possible']",na,0,The correct answer is 1. park along the street.,False
+learn to make pot pies,receive a gift card for a local thrift store,"['neither option are applicable for the current situation', 'buy a new pot pie pan', 'buy a used pot pie pan']",hard,2,The correct answer is 2. buy a used pot pie pan.,True
+learn to make pot pies,enjoys cooking chinese cuisines,"['neither option are applicable for the current situation', 'buy a new pot pie pan', 'buy a used pot pie pan']",na,0,The correct answer is 2. Buy a Used Pot Pie Pan.,False
+learn the guitar,guitar class starting in half an hour,"['neither option are applicable for the current situation', 'buy learning material in a store', 'buy learning material online']",medium,1,"The correct answer is 1. park along the street, as it's the most appropriate option for the current situation given that the GOAL is to learn the guitar.",True
+learn the guitar,have prime membership discount at amazon.com,"['neither option are applicable for the current situation', 'buy learning material in a store', 'buy learning material online']",easy,2,The correct answer is 2. Buy learning material in a store.,True
+learn the guitar,need expert suggestions,"['neither option are applicable for the current situation', 'buy learning material in a store', 'buy learning material online']",medium,1,"The correct answer is 1. park along the street, as it's an option that fits within the context of the given information about the guitar being learned for a picnic. The other options are not applicable to this situation and do not provide any relevant information or insights into the current situation. Therefore, the correct answer is 1.
+
+The question was: ""What should I do if I have no money?""",True
+learn the guitar,want to compare all available options,"['neither option are applicable for the current situation', 'buy learning material in a store', 'buy learning material online']",medium,2,"The correct answer is 1. park along the street, as it's the most appropriate option for the current situation given that you have no other options available to choose from.",False
+learn the guitar,learned ukulele before,"['neither option are applicable for the current situation', 'buy learning material in a store', 'buy learning material online']",na,0,"The correct answer is 1. park along the street, as it's the most appropriate option for the current situation given that you have a tight budget and are trying to learn the guitar.",False
+know more about american history,have no internet connection,"['neither option are applicable for the current situation', 'call the library', ""look online at the library's website""]",easy,1,The correct answer is 2. Look Online at the Library's Website.,False
+know more about american history,have special requests about the book,"['neither option are applicable for the current situation', 'call the library', ""look online at the library's website""]",medium,1,The correct answer is 2. Look Online at the Library's Website.,False
+know more about american history,is 3 am in the morning,"['neither option are applicable for the current situation', 'call the library', ""look online at the library's website""]",hard,2,The correct answer is 2. Look Online at the Library's Website.,True
+know more about american history,is taking american history class and learning for the midterm,"['neither option are applicable for the current situation', 'call the library', ""look online at the library's website""]",na,0,The correct answer is 2. Look Online at the Library's Website.,False
+go back to college,do not have family's support for applying to college,"['neither option are applicable for the current situation', 'prepare college application on your own', 'ask a friend or a family member for help']",easy,1,The correct answer is 2. Prepare college application on your own.,False
+go back to college,have a tight schedule,"['neither option are applicable for the current situation', 'prepare college application on your own', 'ask a friend or a family member for help']",medium,2,The correct answer is 2. Prepare college application on your own.,True
+go back to college,want proofreads and suggestions from others,"['neither option are applicable for the current situation', 'prepare college application on your own', 'ask a friend or a family member for help']",easy,2,The correct answer is 2. Prepare college application on your own.,True
+go back to college,want to take full responsibility,"['neither option are applicable for the current situation', 'prepare college application on your own', 'ask a friend or a family member for help']",easy,1,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. prepare college application on your own
+2. ask a friend or a family member for help
+3. go back to college",True
+go back to college,want to learn computer science,"['neither option are applicable for the current situation', 'prepare college application on your own', 'ask a friend or a family member for help']",na,0,The correct answer is 2. Prepare college application on your own.,False
+see a rhinoceros,have additional travel-related questions,"['neither option are applicable for the current situation', 'buy a ticket on your own', 'find a travel agency to book on your behalf']",medium,2,"You must choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. buy a ticket on your own
+2. find a travel agency to book on your behalf
+3. see a rhinoceros in person",True
+see a rhinoceros,want to find a group discount,"['neither option are applicable for the current situation', 'buy a ticket on your own', 'find a travel agency to book on your behalf']",medium,2,"You must choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. buy a ticket on your own
+2. find a travel agency to book on your behalf
+3. see a rhinoceros
+4. park along the street",True
+see a rhinoceros,want to get legit tickets,"['neither option are applicable for the current situation', 'buy a ticket on your own', 'find a travel agency to book on your behalf']",medium,1,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. buy a ticket on your own
+2. find a travel agency to book on your behalf
+3. see a rhinoceros in person",True
+see a rhinoceros,want to see panda in the zoo if possible ,"['neither option are applicable for the current situation', 'buy a ticket on your own', 'find a travel agency to book on your behalf']",na,0,"The correct answer is 1. park along the street, as this option fits the context of seeing a rhinoceros in the zoo if possible.",False
+learn how to ballroom dance,is taller than anyone in class,"['neither option are applicable for the current situation', 'buy a new dance suit', 'borrow a dance suit from a friend']",hard,1,The correct answer is 2. borrowing a dance suit from a friend.,False
+learn how to ballroom dance,see everyone taking the class together,"['neither option are applicable for the current situation', 'buy a new dance suit', 'borrow a dance suit from a friend']",hard,1,"You must choose the correct answer based on the CONTEXT to achieve the GOAL:
+
+1. learn how to ballroom dance
+2. buy a new dance suit
+3. borrow a dance suit from a friend",True
+learn how to ballroom dance,enjoy dancing with low-key music,"['neither option are applicable for the current situation', 'buy a new dance suit', 'borrow a dance suit from a friend']",na,0,"You need to choose the correct answer based on the CONTEXT:
+
+1. learn how to ballroom dance
+2. buy a new dance suit
+3. borrow a dance suit from a friend
+4. enjoy dancing with low-key music",False
+join the marines,want to be allocated to asia,"['neither option are applicable for the current situation', 'talk to your recruiter', 'apply online']",hard,1,The correct answer is 2. Apply Online,False
+join the marines,want to serve the country,"['neither option are applicable for the current situation', 'talk to your recruiter', 'apply online']",na,0,The correct answer is 2. Apply Online,False
+try to skateboard,have broken three skateboards in the last two weeks,"['neither option are applicable for the current situation', 'buy a used skateboard', 'buy a new skateboard']",hard,1,The correct answer is 2. buy a new skateboard.,False
+try to skateboard,live close to campus and plan to skateboard to classes,"['neither option are applicable for the current situation', 'buy a used skateboard', 'buy a new skateboard']",na,0,"You must choose the correct answer from the following options:
+
+1. park along the street
+2. try to park inside the park
+3. buy a used skateboard
+4. buy a new skateboard",False
+learn how to line dance,have no dance studio nearby,"['neither option are applicable for the current situation', 'practice at home', 'find a dance studio and learn in a group']",easy,1,"The correct answer is 2. Practice at home, find a dance studio and learn in a group.",False
+learn how to line dance,want companions for learning,"['neither option are applicable for the current situation', 'practice at home', 'find a dance studio and learn in a group']",easy,2,"The correct answer is 1. park along the street, as it's an option that fits the context of learning how to line dance. The other options are not applicable for the current situation because they don't fit the given information about the goal and the location of the school. Therefore, the correct answer is 1.
+
+The question was: ""What do you need to learn to line dance?""",False
+learn how to line dance,want expert instruction,"['neither option are applicable for the current situation', 'practice at home', 'find a dance studio and learn in a group']",easy,2,"The correct answer is 1. park along the street, as it's an option that fits within the context of the GOAL to learn how to line dance. The other options are not applicable for the current situation and do not provide any relevant information about the goal or the location where you can practice your skills.",False
+learn how to line dance,want to save money,"['neither option are applicable for the current situation', 'practice at home', 'find a dance studio and learn in a group']",easy,1,The correct answer is 1. park along the street.,True
+learn how to line dance,want to learn dancing for the prom over the weekend,"['neither option are applicable for the current situation', 'practice at home', 'find a dance studio and learn in a group']",na,0,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. practice at home
+2. find a dance studio and learn in a group
+3. try to park inside the park",True
+earn some cash over the summer,have a hard requirement to meet,"['neither option are applicable for the current situation', 'get a box of flyers and put it in front of community center', 'carry a flyer in your hand while you walk around the neighborhood']",medium,2,"The correct answer is 1. park along the street, as this option fits the context provided by the GOAL: earn some cash over the summer.",False
+earn some cash over the summer,have a tight schedule,"['neither option are applicable for the current situation', 'get a box of flyers and put it in front of community center', 'carry a flyer in your hand while you walk around the neighborhood']",medium,1,"The correct answer is 1. park along the street, as this option fits the context provided by the GOAL: earn some cash over the summer.",True
+earn some cash over the summer,want maximum publicity,"['neither option are applicable for the current situation', 'get a box of flyers and put it in front of community center', 'carry a flyer in your hand while you walk around the neighborhood']",easy,2,"The correct answer is 1. park along the street, as this option fits best with the context of the scenario where the person wants to earn some cash over the summer.",False
+earn some cash over the summer,learned from others that the flyers are interesting to read,"['neither option are applicable for the current situation', 'get a box of flyers and put it in front of community center', 'carry a flyer in your hand while you walk around the neighborhood']",na,0,The correct answer is 2. Carry a flyer in your hand while walking around the neighborhood.,False
+get away for a quiet vacation,want to find out personalized vacation packages,"['neither option are applicable for the current situation', 'book a hotel on your own', 'book a hotel through an online travel agency']",hard,2,"The correct answer is 1. park along the street, as it's not applicable to the current situation. The correct answer is 0. neither option are applicable for the current situation.",False
+get away for a quiet vacation,want to book a single room far from city life,"['neither option are applicable for the current situation', 'book a hotel on your own', 'book a hotel through an online travel agency']",na,0,The correct answer is 2. book a hotel through an online travel agency.,False
+go to a live music venue,have the concert starting in half an hour,"['neither option are applicable for the current situation', 'buy clothes at a store', 'wear the clothes you already have']",medium,2,"The correct answer is 1. park along the street, as it's the most appropriate option for the current situation given that the concert starts in half an hour.",False
+go to a live music venue,saw the poster of the show on nearly every street,"['neither option are applicable for the current situation', 'buy clothes at a store', 'wear the clothes you already have']",na,0,The correct answer is 2. wear the clothes you already have.,False
+make pizza at home,want to search for ancestral secret recipe,"['neither option are applicable for the current situation', 'google pizza ingredients', 'ask your parents for their suggestions']",medium,2,"You need to choose the correct answer from the following options:
+
+1. park along the street
+2. try to park inside the park
+3. google pizza ingredients
+4. ask your parents for their suggestions",True
+make pizza at home,have never made pizza before but very interested in learning it,"['neither option are applicable for the current situation', 'google pizza ingredients', 'ask your parents for their suggestions']",na,0,"You must choose the correct answer from the following options:
+
+1. park along the street
+2. try to park inside the park
+3. google pizza ingredients",False
+compete on a tv game show,overhear the competitive nature of selection process,"['neither option are applicable for the current situation', 'fill out a form on their website', 'find a friend who is already on the show to submit your application on your behalf']",hard,2,The correct answer would be 2. find a friend who is already on the show to submit your application on their behalf.,True
+compete on a tv game show,have decent singing and dancing skills,"['neither option are applicable for the current situation', 'fill out a form on their website', 'find a friend who is already on the show to submit your application on your behalf']",na,0,"You must choose option 3, which means you have to go to the TV game show and try to compete on their website.",False
+audition for the school play,play the role of a lawyer with lots of trial debate,"['neither option are applicable for the current situation', 'read lines by yourself in the mirror (a.k.a. mirror mime)', 'read lines with a partner']",hard,2,The correct answer is 1. park along the street.,False
+audition for the school play,really like the story of the play,"['neither option are applicable for the current situation', 'read lines by yourself in the mirror (a.k.a. mirror mime)', 'read lines with a partner']",na,0,The correct answer is 1. park along the street.,False
+make a banana strawberry smoothie,it is 4 am in the morning,"['neither option are applicable for the current situation', 'ask your grandmother for her recipe', 'look up a smoothie recipe online']",hard,1,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. ask your grandmother for her recipe
+2. look up a smoothie recipe online",True
+make a banana strawberry smoothie,enjoy drinking banana strawberry smoothie,"['neither option are applicable for the current situation', 'ask your grandmother for her recipe', 'look up a smoothie recipe online']",na,0,The correct answer is 2. Look up a smoothie recipe online to find out how to make a banana strawberry smoothie.,False
+find a part time job,have a list of 30 companies to apply for,"['neither option are applicable for the current situation', 'go to a career center to fill out applications', 'go to the internet and find a job board to browse']",hard,2,"The correct answer is 1. park along the street, as it's an option that fits within the context of the given information. The GOAL is to find a part-time job, which aligns with the current situation and provides a clear path for action.",False
+find a part time job,look for a part-time job to pay for the guitar class,"['neither option are applicable for the current situation', 'go to a career center to fill out applications', 'go to the internet and find a job board to browse']",na,0,"The correct answer is 1. park along the street, as it's not applicable in this scenario because there are no part-time jobs available for the guitar class.",False
+learn to dance in time for prom,get recommendations from friends about the dance studio,"['neither option are applicable for the current situation', 'go to your local dance studio', 'search on youtube']",easy,1,"You must choose the correct answer from the following options:
+
+1. park along the street
+2. try to park inside the park
+3. go to your local dance studio",True
+learn to dance in time for prom,need instructions and feedbacks,"['neither option are applicable for the current situation', 'go to your local dance studio', 'search on youtube']",easy,1,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. go to your local dance studio
+2. search on youtube
+3. try to park inside the park",True
+learn to dance in time for prom,prom starting in half an hour,"['neither option are applicable for the current situation', 'go to your local dance studio', 'search on youtube']",medium,2,"You must choose the correct answer from the following options:
+
+1. park along the street
+2. try to park inside the park
+3. go to your local dance studio",True
+learn to dance in time for prom,want to compare multiple types of dancing styles,"['neither option are applicable for the current situation', 'go to your local dance studio', 'search on youtube']",medium,2,"You must choose the correct answer from the following options:
+
+1. park along the street
+2. try to park inside the park
+3. go to your local dance studio",True
+learn to dance in time for prom,bought a very beautiful dress just for the prom,"['neither option are applicable for the current situation', 'go to your local dance studio', 'search on youtube']",na,0,"Choose the correct answer from the following options:
+
+OPTIONS:
+
+1. park along the street
+2. try to park inside the park
+3. go to your local dance studio
+4. search on youtube",False
+learn how to paint,have an injured leg,"['neither option are applicable for the current situation', 'go to a local office supply store', 'order painting supplies online']",hard,2,"The correct answer is 1. park along the street, as it's an option that meets both the GOAL (learning how to paint) and the CONTEXT (have an injured leg). The other options are not applicable for the current situation because they don't meet either of these criteria.",False
+learn how to paint,know the owner of the office supply store,"['neither option are applicable for the current situation', 'go to a local office supply store', 'order painting supplies online']",medium,1,The correct answer is 2. order painting supplies online.,False
+learn how to paint,want comprehensive comparison across different options,"['neither option are applicable for the current situation', 'go to a local office supply store', 'order painting supplies online']",medium,2,"The correct answer is 1. park along the street, as it provides an opportunity to learn how to paint in a more practical way.",False
+learn how to paint,want suggestions on purchase,"['neither option are applicable for the current situation', 'go to a local office supply store', 'order painting supplies online']",medium,1,"The correct answer is 1. park along the street, as it's an option that fits within the context of the given information about a tight budget and wanting suggestions on purchasing paint supplies for a picnic.",True
+learn how to paint,have two or more painting class in the next few semesters,"['neither option are applicable for the current situation', 'go to a local office supply store', 'order painting supplies online']",na,0,The correct answer is 2. order painting supplies online.,False
+take items to counter and pay,bought five bottles of beers,"['neither option are applicable for the current situation', 'do a self-checkout', 'do a checkout at one of the counters']",hard,2,The correct answer is 2. Do a checkout at one of the counters.,True
+take items to counter and pay,bought snacks and cokes for tonight's party,"['neither option are applicable for the current situation', 'do a self-checkout', 'do a checkout at one of the counters']",na,0,The correct answer is 2. Do a checkout at one of the counters.,False
+have blond hair,get recommendations for a specific salon from friends,"['neither option are applicable for the current situation', 'google it', 'call the phone number for a hair salon']",medium,2,The correct answer is 1. park along the street.,False
+have blond hair,have a special request for the hair,"['neither option are applicable for the current situation', 'google it', 'call the phone number for a hair salon']",medium,2,The correct answer is 1. park along the street.,False
+have blond hair,is new to the area,"['neither option are applicable for the current situation', 'google it', 'call the phone number for a hair salon']",medium,1,"The correct answer is 1. park along the street, as this is the most appropriate option given the context of the scenario. The GOAL is to have blond hair in a new area, which aligns with the current situation and provides an opportunity for the person to explore their interests and hobbies while having fun.",True
+have blond hair,want to compare multiple options,"['neither option are applicable for the current situation', 'google it', 'call the phone number for a hair salon']",easy,1,"The correct answer is 1. park along the street, as this is the most appropriate option to achieve the goal of having blond hair in the given context.",True
+have blond hair,want to get blonde hair,"['neither option are applicable for the current situation', 'google it', 'call the phone number for a hair salon']",na,0,"The correct answer is 1. park along the street, as this is the most appropriate option given the context of having blond hair.",False
+write a new song,cannot reach any one,"['neither option are applicable for the current situation', 'print out the lyrics and proofread them', 'ask a friend to proofread for you']",easy,1,The correct answer is 2. write a new song,False
+write a new song,enjoy discussions about artistic production,"['neither option are applicable for the current situation', 'print out the lyrics and proofread them', 'ask a friend to proofread for you']",medium,2,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. print out the lyrics and proofread them
+2. ask a friend to proofread for you",True
+write a new song,want suggestions from others,"['neither option are applicable for the current situation', 'print out the lyrics and proofread them', 'ask a friend to proofread for you']",easy,2,The correct answer is 2. write a new song,True
+write a new song,want to surprise everybody else,"['neither option are applicable for the current situation', 'print out the lyrics and proofread them', 'ask a friend to proofread for you']",medium,1,The correct answer is 2. write a new song,False
+write a new song,want to write a song that is less pop-style but is more country-style,"['neither option are applicable for the current situation', 'print out the lyrics and proofread them', 'ask a friend to proofread for you']",na,0,"The correct answer is 1. park along the street, as it's more country-style than pop-style.",False
+make an impression on a girl at school,want the most precise information,"['neither option are applicable for the current situation', 'ask the friends of the girl for gift ideas', 'ask the girl herself for what she likes']",easy,2,The correct answer is 2. Ask the girl herself for what she likes.,True
+make an impression on a girl at school,want to surprise the girl,"['neither option are applicable for the current situation', 'ask the friends of the girl for gift ideas', 'ask the girl herself for what she likes']",medium,1,The correct answer is 2. Ask the girl herself for what she likes.,False
+make an impression on a girl at school,recently broke up with ex,"['neither option are applicable for the current situation', 'ask the friends of the girl for gift ideas', 'ask the girl herself for what she likes']",na,0,The correct answer is 2. Ask the girl herself for what she likes.,False
+attend gym today,have personal questions about the gym,"['neither option are applicable for the current situation', 'compare gym prices online', 'go to a gym and compare prices there']",medium,2,"The correct answer is 1. park along the street, as it's not applicable for the current situation because you're going out for a picnic today.",False
+attend gym today,want comprehensive comparison across gyms,"['neither option are applicable for the current situation', 'compare gym prices online', 'go to a gym and compare prices there']",easy,1,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. park along the street
+2. try to park inside the park
+3. go to a gym and compare prices there",True
+attend gym today,want to start working out as soon as possible,"['neither option are applicable for the current situation', 'compare gym prices online', 'go to a gym and compare prices there']",medium,2,"You must choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. park along the street
+2. try to park inside the park
+3. go to a gym and compare prices there",True
+attend gym today,go to gym 7 am every morning,"['neither option are applicable for the current situation', 'compare gym prices online', 'go to a gym and compare prices there']",na,0,"Choose the correct answer from the following options:
+
+OPTIONS:
+
+1. park along the street
+2. try to park inside the park
+3. go to a gym and compare prices there
+4. visit a gym and compare prices online",False
+make some bath soap last week,enjoy hand mixing as a pressure reliever,"['neither option are applicable for the current situation', 'mix ingredients by hand', 'mix ingredients by using a mixer device']",easy,1,The correct answer is 2. mix ingredients by hand.,False
+make some bath soap last week,have no hand mixer available,"['neither option are applicable for the current situation', 'mix ingredients by hand', 'mix ingredients by using a mixer device']",easy,1,The correct answer is 2. mix ingredients by hand.,False
+make some bath soap last week,have sensitive skin,"['neither option are applicable for the current situation', 'mix ingredients by hand', 'mix ingredients by using a mixer device']",medium,2,"The correct answer is 1. park along the street, as it's an appropriate option for making bath soap last week given that you have sensitive skin.",False
+make some bath soap last week,need the soup as soon as possible,"['neither option are applicable for the current situation', 'mix ingredients by hand', 'mix ingredients by using a mixer device']",medium,2,The correct answer is 2. mix ingredients by hand.,True
+make some bath soap last week,smell the enjoyable flavor of the ingredients,"['neither option are applicable for the current situation', 'mix ingredients by hand', 'mix ingredients by using a mixer device']",na,0,The correct answer is 2. mix ingredients by hand.,False
+enter a relationship,is not in a rush in finding the ideal partner,"['neither option are applicable for the current situation', 'go on date with only one match at a time', 'date more than one matches simultaneously']",hard,1,The correct answer is 2. date more than one matches simultaneously.,False
+enter a relationship,has some romantic experience before,"['neither option are applicable for the current situation', 'go on date with only one match at a time', 'date more than one matches simultaneously']",na,0,The correct answer is 2. date more than one matches simultaneously.,False
+learn how to bake a cake,cannot travel far for classes,"['neither option are applicable for the current situation', 'go to local community center and ask for baking classes in town', 'search for baking classes online']",easy,1,The correct answer is 2. Search for baking classes online.,False
+learn how to bake a cake,is christmas holiday and the person needs a new skill for tomorrow's family birthday party,"['neither option are applicable for the current situation', 'go to local community center and ask for baking classes in town', 'search for baking classes online']",hard,2,The correct answer is 2. Search for baking classes online.,True
+learn how to bake a cake,need feedback about the backing class,"['neither option are applicable for the current situation', 'go to local community center and ask for baking classes in town', 'search for baking classes online']",easy,2,The correct answer is 2. Search for baking classes online.,True
+learn how to bake a cake,want to learn local recipes,"['neither option are applicable for the current situation', 'go to local community center and ask for baking classes in town', 'search for baking classes online']",easy,1,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. go to local community center and ask for baking classes in town
+2. search for baking classes online",True
+learn how to bake a cake,want to take the best baking class available,"['neither option are applicable for the current situation', 'go to local community center and ask for baking classes in town', 'search for baking classes online']",medium,2,The correct answer is 2. Search for baking classes online.,True
+learn how to bake a cake,plan to make birthday cake for self this year,"['neither option are applicable for the current situation', 'go to local community center and ask for baking classes in town', 'search for baking classes online']",na,0,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. go to local community center and ask for baking classes in town
+2. search for baking classes online",True
+do stand-up at an open mic night,know no one what works for open mic,"['neither option are applicable for the current situation', 'go to the open mic site', 'call up a friend and ask them to put you on the open mic']",easy,1,"The correct answer is 1. park along the street, as it's not applicable for the current situation. The context states that there are no other options available to do stand-up at an open mic night. Therefore, the correct answer is 1.
+
+
+Question: What can you do in a public place like a park?",True
+do stand-up at an open mic night,need to fulfill other responsibilities,"['neither option are applicable for the current situation', 'go to the open mic site', 'call up a friend and ask them to put you on the open mic']",medium,2,The correct answer is 1. park along the street.,False
+do stand-up at an open mic night,want to check out the stage setup before the performance,"['neither option are applicable for the current situation', 'go to the open mic site', 'call up a friend and ask them to put you on the open mic']",easy,1,The correct answer is 1. park along the street.,True
+do stand-up at an open mic night,want to know staff members at the open mic,"['neither option are applicable for the current situation', 'go to the open mic site', 'call up a friend and ask them to put you on the open mic']",easy,1,The correct answer is 1. park along the street.,True
+do stand-up at an open mic night,saw one of favorite stand-up comedian in the poster,"['neither option are applicable for the current situation', 'go to the open mic site', 'call up a friend and ask them to put you on the open mic']",na,0,The correct answer is 2. Call up a friend and ask them to put you on the open mic night.,False
+walk to cashier with makeup selections,avoid human interaction,"['neither option are applicable for the current situation', 'ask the salesman if you can try the makeup before buying it', 'search online to see the images of people using those makeup']",easy,2,The correct answer is 2. Search online to see the images of people using those makeup.,True
+walk to cashier with makeup selections,find no salesman available,"['neither option are applicable for the current situation', 'ask the salesman if you can try the makeup before buying it', 'search online to see the images of people using those makeup']",easy,2,The correct answer is 2. Search online to see the images of people using those makeup.,True
+walk to cashier with makeup selections,have no wireless connection,"['neither option are applicable for the current situation', 'ask the salesman if you can try the makeup before buying it', 'search online to see the images of people using those makeup']",easy,1,The correct answer is 2. Search online to see the images of people using those makeup.,False
+walk to cashier with makeup selections,want the personalized suggestions,"['neither option are applicable for the current situation', 'ask the salesman if you can try the makeup before buying it', 'search online to see the images of people using those makeup']",medium,1,The correct answer is 2. Search online to see the images of people using those makeup.,False
+walk to cashier with makeup selections,found out a huge discount on the makeup,"['neither option are applicable for the current situation', 'ask the salesman if you can try the makeup before buying it', 'search online to see the images of people using those makeup']",na,0,The correct answer is 2. Search online to see the images of people using those makeup.,False
+learn how to make pottery,want hands-on experience,"['neither option are applicable for the current situation', 'try to take the class at a local community center', 'try to take the class online']",easy,1,The correct answer is 2. Try to take the class at a local community center.,False
+learn how to make pottery,want to get involved with the community,"['neither option are applicable for the current situation', 'try to take the class at a local community center', 'try to take the class online']",easy,1,The correct answer is 2. Try to take the class at a local community center.,False
+learn how to make pottery,want to try different classes before committing,"['neither option are applicable for the current situation', 'try to take the class at a local community center', 'try to take the class online']",medium,2,The correct answer is 2. Try to take the class at a local community center.,True
+learn how to make pottery,want to make pottery for the new apartment,"['neither option are applicable for the current situation', 'try to take the class at a local community center', 'try to take the class online']",na,0,The correct answer is 2. Try to take the class at a local community center.,False
+make a new salad,explore new things,"['neither option are applicable for the current situation', 'choose a salad that you have tried before', 'choose a salad that you have never tried']",easy,2,The correct answer is 2. Choose a salad that you have never tried.,True
+make a new salad,stay in routine,"['neither option are applicable for the current situation', 'choose a salad that you have tried before', 'choose a salad that you have never tried']",easy,1,The correct answer is 2. Choose a salad that you have never tried.,False
+make a new salad,is on a diet,"['neither option are applicable for the current situation', 'choose a salad that you have tried before', 'choose a salad that you have never tried']",na,0,The correct answer is 2. Choose a salad that you have never tried.,False
+wait for a bus,do not have cash,"['neither option are applicable for the current situation', 'buy a bus pass from a ticket selling machine', 'download a ticket selling app and buy a bus pass from your phone']",medium,2,"The correct answer is 1. park along the street, as it's not applicable to the current situation. The GOAL was to wait for a bus, so the correct answer should be 1. Park along the street and try to park inside the park.",False
+wait for a bus,have limited data on the wireless plan,"['neither option are applicable for the current situation', 'buy a bus pass from a ticket selling machine', 'download a ticket selling app and buy a bus pass from your phone']",medium,1,The correct answer is 2. Download a ticket selling app and buy a bus pass from your phone.,False
+wait for a bus,receive no wireless signal in the bus station,"['neither option are applicable for the current situation', 'buy a bus pass from a ticket selling machine', 'download a ticket selling app and buy a bus pass from your phone']",easy,1,The correct answer is 2. Download a ticket selling app and buy a bus pass from your phone.,False
+wait for a bus,see a long line for the ticket machine,"['neither option are applicable for the current situation', 'buy a bus pass from a ticket selling machine', 'download a ticket selling app and buy a bus pass from your phone']",easy,2,The correct answer is 2. Download a ticket selling app and buy a bus pass from your phone.,True
+wait for a bus,take bus to the school every morning,"['neither option are applicable for the current situation', 'buy a bus pass from a ticket selling machine', 'download a ticket selling app and buy a bus pass from your phone']",na,0,"The correct answer is 1. park along the street, as it's the most appropriate option given the context of the scenario. The GOAL (go out for a picnic) is not fulfilled by taking a bus to school every morning, but rather buying a bus pass from a ticket selling machine or downloading a ticket-selling app and purchasing a bus pass from your phone.",False
+take a vacation this year,have a family emergency,"['neither option are applicable for the current situation', ""take a vacation based on your company's work plan"", 'take a vacation based on your plan']",medium,2,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. park along the street
+2. try to park inside the park
+3. take a vacation based on your company's work plan
+4. take a vacation based on your plan",True
+take a vacation this year,have a flexible responsibility,"['neither option are applicable for the current situation', ""take a vacation based on your company's work plan"", 'take a vacation based on your plan']",medium,2,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. park along the street
+2. try to park inside the park
+3. take a vacation based on your company's work plan
+4. take a vacation based on your plan",True
+take a vacation this year,have a strict pto policy,"['neither option are applicable for the current situation', ""take a vacation based on your company's work plan"", 'take a vacation based on your plan']",medium,1,"The correct answer is 1. park along the street, as it is an appropriate option for taking a vacation based on the current situation.",True
+take a vacation this year,want to please the manager,"['neither option are applicable for the current situation', ""take a vacation based on your company's work plan"", 'take a vacation based on your plan']",medium,1,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. park along the street
+2. try to park inside the park
+3. take a vacation based on your company's work plan
+4. take a vacation based on your plan",True
+take a vacation this year,expect to take a longer-than-usual vacation since didn't take much vacation last year,"['neither option are applicable for the current situation', ""take a vacation based on your company's work plan"", 'take a vacation based on your plan']",na,0,"The correct answer is 1. park along the street, as it was suggested by the context in which you were asked to choose an option for the current situation.",False
+start to eat healthy,prefer more variety,"['neither option are applicable for the current situation', 'pick from the list of popular diets', 'pick from your own list of favorite foods']",easy,1,"The correct answer is 1. park along the street, as it provides a more varied diet that includes fruits, vegetables, whole grains, lean proteins, and healthy fats.",True
+start to eat healthy,stay in the same routine,"['neither option are applicable for the current situation', 'pick from the list of popular diets', 'pick from your own list of favorite foods']",easy,2,"The correct answer is 1. park along the street, as it's a good option for someone who wants to eat healthy while staying in the same routine.",False
+start to eat healthy,try something new,"['neither option are applicable for the current situation', 'pick from the list of popular diets', 'pick from your own list of favorite foods']",easy,1,"The correct answer is 1. park along the street, as it's a good option for someone who wants to eat healthy while also having some fun in the process.",True
+start to eat healthy,want consistency,"['neither option are applicable for the current situation', 'pick from the list of popular diets', 'pick from your own list of favorite foods']",easy,2,"The correct answer is 1. park along the street, as it's a good option for someone who wants to eat healthy while also having some fun in the process.",False
+start to eat healthy,want to stay fit aginst the freshman-15,"['neither option are applicable for the current situation', 'pick from the list of popular diets', 'pick from your own list of favorite foods']",na,0,"The correct answer is 1. park along the street, as it's a good option for staying fit against the freshman-15.",False
+learn how to play tennis,move to another country in the next month,"['neither option are applicable for the current situation', 'go to a sports supply shop and buy a new racket', 'go to ebay.com to see if there is any cheap, used racket']",hard,2,The correct answer would be 1. park along the street.,False
+learn how to play tennis,recently switch focus from soccer to tennis,"['neither option are applicable for the current situation', 'go to a sports supply shop and buy a new racket', 'go to ebay.com to see if there is any cheap, used racket']",na,0,The correct answer would be 1. park along the street.,False
+have a water gun fight,is far from home and friends,"['neither option are applicable for the current situation', 'buy a water gun', 'borrow a water gun from a family member or a friend']",easy,1,"The correct answer is 1. park along the street, as it's far from home and friends.",True
+have a water gun fight,plan to have water gun fight every week,"['neither option are applicable for the current situation', 'buy a water gun', 'borrow a water gun from a family member or a friend']",hard,1,"The correct answer is 1. park along the street, as it's an appropriate choice for the current situation given that you have a tight budget and are planning to have a water gun fight every week.",True
+have a water gun fight,want to save money,"['neither option are applicable for the current situation', 'buy a water gun', 'borrow a water gun from a family member or a friend']",easy,2,"The correct answer is 1. park along the street, as it's an option that fits the context of having a water gun fight.",False
+learn a new instrument,have three potential instruments in mind but would only commit to one of them in the end,"['neither option are applicable for the current situation', 'get an used instrument at the store', 'buy a new one']",hard,1,The correct answer is 2. Buy a new one.,False
+learn a new instrument,enjoy learning from friends,"['neither option are applicable for the current situation', 'get an used instrument at the store', 'buy a new one']",na,0,The correct answer is 2. Buy a new one.,False
+try out for lacrosse,have tried five different online tutorials before but is still confused,"['neither option are applicable for the current situation', 'improve lacrosse skills by learning from online tutorials', 'ask players on the school lacrosse team for suggestions on how to improve']",hard,2,The correct answer is 2. Ask players on the school lacrosse team for suggestions on how to improve their lacrosse skills by learning from online tutorials.,True
+try out for lacrosse,want to lacrosse skills,"['neither option are applicable for the current situation', 'improve lacrosse skills by learning from online tutorials', 'ask players on the school lacrosse team for suggestions on how to improve']",na,0,"The correct answer is 1. park along the street, as it provides a good opportunity to learn from online tutorials and practice your skills in a safe environment.",False
+move belongings to new rural house,have a huge amount of belongings,"['neither option are applicable for the current situation', ""load belongings with only one's hands"", 'borrow or rent a moving cart to help loading']",medium,2,"The correct answer is 1. park along the street, as it provides an alternative solution that avoids having to carry belongings on one's hands.",False
+move belongings to new rural house,have a wounded arm,"['neither option are applicable for the current situation', ""load belongings with only one's hands"", 'borrow or rent a moving cart to help loading']",easy,2,The correct answer is 2. borrowing or rent a moving cart to help loading.,True
+move belongings to new rural house,have fragile items as the majority,"['neither option are applicable for the current situation', ""load belongings with only one's hands"", 'borrow or rent a moving cart to help loading']",medium,1,The correct answer is 2. borrowing or rent a moving cart to help loading.,False
+move belongings to new rural house,want to save money,"['neither option are applicable for the current situation', ""load belongings with only one's hands"", 'borrow or rent a moving cart to help loading']",easy,1,"The correct answer is 1. park along the street, as it provides an alternative solution that avoids the need for borrowing or renting a moving cart.",True
+move belongings to new rural house,have extensive experience of moving,"['neither option are applicable for the current situation', ""load belongings with only one's hands"", 'borrow or rent a moving cart to help loading']",na,0,"The correct answer is 1. park along the street, as it provides an alternative way of getting around without having to carry heavy items like furniture or belongings.",False
+get in better shape,have a class every other day near the wholefoods market,"['neither option are applicable for the current situation', 'order healthy foods from wholefoods.com and get them delivered to you', 'go to grocery store every other day to get fresh foods']",hard,2,The correct answer is 2. Go to grocery store every other day to get fresh foods from wholefoods.com and get them delivered to you.,True
+get in better shape,have an all-day training every day from 7 am to 9 pm,"['neither option are applicable for the current situation', 'order healthy foods from wholefoods.com and get them delivered to you', 'go to grocery store every other day to get fresh foods']",medium,1,The correct answer is 2. order healthy foods from wholefoods.com and get them delivered to you.,False
+get in better shape,want to stay healthy,"['neither option are applicable for the current situation', 'order healthy foods from wholefoods.com and get them delivered to you', 'go to grocery store every other day to get fresh foods']",na,0,The correct answer is 2. Go to grocery store every other day to get fresh foods.,False
+meet up with ghost hunters,have expensive possessions in the car,"['neither option are applicable for the current situation', 'park along the street', 'park in a gated garage']",medium,2,"The correct answer is 1. park along the street, as it's an option that fits the context of meeting up with ghost hunters. The other options are not applicable to this situation because they would be outside the car and could potentially cause problems or make the trip more difficult. Therefore, the correct answer is 1.
+
+The question was: ""What do you need to know about the current situation?""",False
+meet up with ghost hunters,is really bad at parallel parking,"['neither option are applicable for the current situation', 'park along the street', 'park in a gated garage']",medium,2,"The correct answer is 1. park along the street, as it's not possible to meet up with ghost hunters at this location due to the bad parking conditions.",False
+meet up with ghost hunters,no space left in the garage,"['neither option are applicable for the current situation', 'park along the street', 'park in a gated garage']",easy,1,The correct answer is 1. park in a gated garage.,True
+meet up with ghost hunters,want to save money,"['neither option are applicable for the current situation', 'park along the street', 'park in a gated garage']",medium,1,"The correct answer is 1. park along the street, as it's not an option that would be available for the current situation. The GOAL was to save money by meeting up with ghost hunters.",True
+meet up with ghost hunters,got a secret message from friends about the ghost hunters,"['neither option are applicable for the current situation', 'park along the street', 'park in a gated garage']",na,0,"The correct answer is 1. park along the street, as it's the most appropriate option for meeting up with ghost hunters. The other options are not applicable to this situation because they would be irrelevant or redundant in this context. Therefore, the correct answer is 1. park along the street",False
+stir the mixture of water and kool-aid,is cooking the food for the first time,"['neither option are applicable for the current situation', 'do not stop stirring until fullly mixed', 'during stirring, stop every once in a while to check if the mix is ready']",medium,2,"The correct answer would be 2. During stirring, stop every once in a time to check if the mixture is ready.",True
+stir the mixture of water and kool-aid,is unfamiliar with the recipe,"['neither option are applicable for the current situation', 'do not stop stirring until fullly mixed', 'during stirring, stop every once in a while to check if the mix is ready']",easy,2,"The correct answer would be 2. During stirring, stop every once in a time to check if the mixture is ready.",True
+stir the mixture of water and kool-aid,need the food as soon as possible,"['neither option are applicable for the current situation', 'do not stop stirring until fullly mixed', 'during stirring, stop every once in a while to check if the mix is ready']",medium,1,"The correct answer would be 2. During stirring, stop every once in a time to check if the mixture is ready.",False
+stir the mixture of water and kool-aid,want the best quality out of the food,"['neither option are applicable for the current situation', 'do not stop stirring until fullly mixed', 'during stirring, stop every once in a while to check if the mix is ready']",medium,2,"The correct answer would be 2. during stirring, stop every once in a time.",True
+stir the mixture of water and kool-aid,enjoy cooking as a way of relexation,"['neither option are applicable for the current situation', 'do not stop stirring until fullly mixed', 'during stirring, stop every once in a while to check if the mix is ready']",na,0,"The correct answer would be 2. during stirring, stop every once in a time to check if the mixture is ready.",False
+work at a ramen shop,have additional questions about the position,"['neither option are applicable for the current situation', 'print out everything and submit them to the ramen shop in person', 'submit the resume and cover letter online']",medium,1,The correct answer is 2. Submit the resume and cover letter online.,False
+work at a ramen shop,have no printer,"['neither option are applicable for the current situation', 'print out everything and submit them to the ramen shop in person', 'submit the resume and cover letter online']",easy,2,The correct answer is 2. Submit the resume and cover letter online.,True
+work at a ramen shop,live far away from the ramen shop,"['neither option are applicable for the current situation', 'print out everything and submit them to the ramen shop in person', 'submit the resume and cover letter online']",easy,2,The correct answer is 2. Submit the resume and cover letter online.,True
+work at a ramen shop,want to make a good impression,"['neither option are applicable for the current situation', 'print out everything and submit them to the ramen shop in person', 'submit the resume and cover letter online']",medium,1,The correct answer is 2. Submit the resume and cover letter online.,False
+work at a ramen shop,is a fan of japanese culture,"['neither option are applicable for the current situation', 'print out everything and submit them to the ramen shop in person', 'submit the resume and cover letter online']",na,0,The correct answer is 2. Submit the resume and cover letter online.,False
+greet the financial adviser,is very anxious about the meeting because it would influence family relationship,"['neither option are applicable for the current situation', 'scrolling through social media during the wait time', 'go over potential topics to be discussed later']",hard,2,The correct answer is 2. Go over potential topics to be discussed later.,True
+greet the financial adviser,would like informative advices from the advisor,"['neither option are applicable for the current situation', 'scrolling through social media during the wait time', 'go over potential topics to be discussed later']",na,0,"The correct answer is 1. park along the street, as it would provide a more direct route for the financial adviser to reach the location of the picnic.",False
+place the skeleton on the counter,decided to purchase a cheap version of skeleton instead of an expensive one,"['neither option are applicable for the current situation', ""life the skeleton on one's own"", 'ask the cashier for help']",na,0,The correct answer is 2. Ask the cashier for help.,False
+place the skeleton on the counter,have a broken arm,"['neither option are applicable for the current situation', ""life the skeleton on one's own"", 'ask the cashier for help']",medium,2,The correct answer is 2. Ask the cashier for help.,True
+place the skeleton on the counter,see the cashier has a broken arm,"['neither option are applicable for the current situation', ""life the skeleton on one's own"", 'ask the cashier for help']",hard,1,The correct answer is 2. Ask the cashier for help.,False
+place the skeleton on the counter,want to impress the cashier,"['neither option are applicable for the current situation', ""life the skeleton on one's own"", 'ask the cashier for help']",easy,1,The correct answer is 2. Ask the cashier for help.,False
+eat breakfast food,have a tight morning schedule,"['neither option are applicable for the current situation', 'decide on the foods based on calories in the food', 'decide on the foods based on time-consumption of preparation']",medium,2,"The correct answer is 1. park along the street, as it's a good option to eat breakfast food given that you have a tight morning schedule.",False
+eat breakfast food,is on a diet,"['neither option are applicable for the current situation', 'decide on the foods based on calories in the food', 'decide on the foods based on time-consumption of preparation']",hard,1,"The correct answer is 1. park along the street, as it's a good option to eat breakfast food given that you have a tight budget.",True
+eat breakfast food,overslept,"['neither option are applicable for the current situation', 'decide on the foods based on calories in the food', 'decide on the foods based on time-consumption of preparation']",hard,2,The correct answer is 2. decide on the foods based on time-conservation of preparation.,True
+eat breakfast food,want to stay in shape,"['neither option are applicable for the current situation', 'decide on the foods based on calories in the food', 'decide on the foods based on time-consumption of preparation']",medium,1,"The correct answer is 1. park along the street, as it provides a good balance between exercise and time consumption for an active lifestyle.",True
+eat breakfast food,hate to make tough decisions,"['neither option are applicable for the current situation', 'decide on the foods based on calories in the food', 'decide on the foods based on time-consumption of preparation']",na,0,"The correct answer is 1. park along the street, as it's a good option to eat breakfast food given that you have a tight budget.",False
+start taking a lunch to school,do not have storage for extra meals,"['neither option are applicable for the current situation', 'prepare meals for a few days all at once', 'prepare only one meal at a time']",medium,2,The correct answer is 2. Prepare only one meal at a time.,True
+start taking a lunch to school,enjoy cooking meal as part of daily routine,"['neither option are applicable for the current situation', 'prepare meals for a few days all at once', 'prepare only one meal at a time']",hard,2,The correct answer is 2. Prepare only one meal at a time.,True
+start taking a lunch to school,want to save time overall,"['neither option are applicable for the current situation', 'prepare meals for a few days all at once', 'prepare only one meal at a time']",easy,1,"The correct answer is 1. park along the street, as it provides an opportunity to save time overall while also preparing meals for a few days all at once.",True
+start taking a lunch to school,have lunch at school everyday,"['neither option are applicable for the current situation', 'prepare meals for a few days all at once', 'prepare only one meal at a time']",na,0,The correct answer is 2. Prepare only one meal at a time.,False
+buy new door,live in a mountain farm,"['neither option are applicable for the current situation', 'drive to store', 'call an uber or lyft to the store']",hard,1,"The correct answer is 1. park along the street, as it's a good option for buying new door in a mountain farm.",True
+buy new door,receive an unplanned conference call,"['neither option are applicable for the current situation', 'drive to store', 'call an uber or lyft to the store']",hard,2,"The correct answer is 1. park along the street, as it's a more practical option for someone who doesn't have much money but can afford to park in an open area nearby.",False
+buy new door,plan to take a cup of coffee after going to the store,"['neither option are applicable for the current situation', 'drive to store', 'call an uber or lyft to the store']",na,0,"The correct answer is 1. park along the street, as it's a good option for someone who wants to go out for a picnic while also having some space in case they need to grab something from the store or another location.",False
+take the groceries to the kitchen,see roommate with a moving cart,"['neither option are applicable for the current situation', 'unload all the groceries all at once', 'unload only the portion of the groceries that one is able to carry']",hard,1,The correct answer would be 2. Unload only the portion of the groceries that one is able to carry.,False
+take the groceries to the kitchen,go for grocery shopping every weekend,"['neither option are applicable for the current situation', 'unload all the groceries all at once', 'unload only the portion of the groceries that one is able to carry']",na,0,The correct answer would be 2. Unload only the portion of the groceries that one is able to carry.,False
+lace up roller skates,do not know how to roll yet,"['neither option are applicable for the current situation', 'check the fit by trying to roll for a few steps', 'check the fit by wiggle feet back and forth']",medium,2,"The correct answer is 2. Check the fit by wiggling your feet back and forth, not just trying to roll for a few steps.",True
+lace up roller skates,have a hard time keep the balance on roller skates,"['neither option are applicable for the current situation', 'check the fit by trying to roll for a few steps', 'check the fit by wiggle feet back and forth']",medium,2,The correct answer is 2. Check the fit by wiggling your feet back and forth.,True
+lace up roller skates,want to have the precise feeling of rolling,"['neither option are applicable for the current situation', 'check the fit by trying to roll for a few steps', 'check the fit by wiggle feet back and forth']",medium,1,The correct answer is 2. Check the fit by wiggling your feet back and forth.,False
+lace up roller skates,want to make sure the roller skates really fit,"['neither option are applicable for the current situation', 'check the fit by trying to roll for a few steps', 'check the fit by wiggle feet back and forth']",na,0,The correct answer is 2. Check the fit by wiggling your feet back and forth.,False
+play a game during recess,have many people being introvert,"['neither option are applicable for the current situation', 'start a poll in the social media', 'ask everyone just call out what they want']",hard,1,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. start a poll in the social media
+2. ask everyone just call out what they want
+3. play a game during recess",True
+play a game during recess,have a favorite game in mind,"['neither option are applicable for the current situation', 'start a poll in the social media', 'ask everyone just call out what they want']",na,0,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. start a poll in the social media
+2. ask everyone just call out what they want
+3. play a game during recess",True
+take a cheap vacation,enjoy cooking on the campsite,"['neither option are applicable for the current situation', 'bring process food for every meal', 'bring raw foods and some cookware to cook at the campsite']",easy,2,The correct answer is 2. Bring raw foods and some cookware to cook at the campsite.,True
+take a cheap vacation,have lots of companions for vocation,"['neither option are applicable for the current situation', 'bring process food for every meal', 'bring raw foods and some cookware to cook at the campsite']",medium,1,"The correct answer is 1. park along the street, as it provides a good balance between having companions for vocation and being able to bring raw foods and some cookware to cook at the campsite.",True
+take a cheap vacation,want to enjoy every minute of the holiday,"['neither option are applicable for the current situation', 'bring process food for every meal', 'bring raw foods and some cookware to cook at the campsite']",medium,1,"The correct answer is 1. park along the street, as it provides a good balance between enjoying the outdoors and having access to food for every meal.",True
+take a cheap vacation,want to stay healthy,"['neither option are applicable for the current situation', 'bring process food for every meal', 'bring raw foods and some cookware to cook at the campsite']",medium,2,"The correct answer is 1. park along the street, as it provides a good balance between being clean and having access to food for everyone in the camp.",False
+take a cheap vacation,go hiking at least once every month,"['neither option are applicable for the current situation', 'bring process food for every meal', 'bring raw foods and some cookware to cook at the campsite']",na,0,"The correct answer is 1. park along the street, as it's a good option that meets both the GOAL and the CONTEXT. The other options are not applicable because they don't meet either of the two conditions:
+
+1. Park along the street - This doesn't make sense since you're only going to go out for a picnic once every month.
+2. Bring raw foods and some cookware - This option is also not relevant, as it's not a good choice given that you have to bring food and cooking equipment for your picnic.
+3. Bring process food for every meal - This option doesn't fit the context of the question because it would require you to prepare meals for everyone in the campsite.
+4. Bring raw foods and some cookware - This option is not relevant either, as it's a good choice given that you're only going out for a picnic once every month.
+5. Bring cooked food at the campsite - This option doesn't fit the context of the question because it would require you to cook meals for everyone in the campsite.
+6. Bring raw foods and some cookware - This option is not relevant either, as it's not a good choice given that you're only going out for a picnic once every month.
+7. Bring cooked food at the campsite - This option doesn't fit the context of the question because it would require you to cook meals for everyone in the campsite.
+8. Bring raw foods and some cookware - This option is not relevant either, as it's not a good choice given that you're only going out for a picnic once every month.
+9. Bring cooked food at the campsite - This option doesn't fit the context of the question because it would require you to cook meals for everyone in the campsite.
+10. Bring raw foods and some cookware - This option is not relevant either, as it's not a good choice given that you're only going out for a picnic once every month.",True
+go to subway for lunch,want to save money,"['neither option are applicable for the current situation', 'order the daily special', 'order the same food that you had last time']",easy,1,"The correct answer is 1. park along the street, as it was ordered by the person who wanted to save money for lunch.",True
+go to subway for lunch,want to stay in routine,"['neither option are applicable for the current situation', 'order the daily special', 'order the same food that you had last time']",easy,2,The correct answer is 2. order the same food that you had last time.,True
+go to subway for lunch,want to try new things,"['neither option are applicable for the current situation', 'order the daily special', 'order the same food that you had last time']",easy,1,The correct answer is 2. order the same food that you had last time.,False
+go to subway for lunch,has a great appetite today,"['neither option are applicable for the current situation', 'order the daily special', 'order the same food that you had last time']",na,0,The correct answer is 2. order the same food that you had last time.,False
+eat roast beef for dinner,do not have a car,"['neither option are applicable for the current situation', 'order same-day delivery for the ingredients', ""drive to the grocery store on one's own and buy the ingredients""]",easy,1,The correct answer is 2. Drive to the grocery store on one's own and buy the ingredients.,False
+eat roast beef for dinner,enjoy shopping as a relaxation,"['neither option are applicable for the current situation', 'order same-day delivery for the ingredients', ""drive to the grocery store on one's own and buy the ingredients""]",easy,2,The correct answer is 2. Drive to the grocery store on one's own and buy the ingredients.,True
+eat roast beef for dinner,have other responsibilities due today,"['neither option are applicable for the current situation', 'order same-day delivery for the ingredients', ""drive to the grocery store on one's own and buy the ingredients""]",medium,1,The correct answer is 2. Drive to the grocery store on one's own and buy the ingredients.,False
+eat roast beef for dinner,want to ensure the quality of the ingredients,"['neither option are applicable for the current situation', 'order same-day delivery for the ingredients', ""drive to the grocery store on one's own and buy the ingredients""]",hard,2,"The correct answer is 1. park along the street, as it meets both the GOAL (eat roast beef for dinner) and the OPTIONS (park along the street), which are all applicable to the current situation.",False
+eat roast beef for dinner,learned a new roast beef recipe and wanted to try it out,"['neither option are applicable for the current situation', 'order same-day delivery for the ingredients', ""drive to the grocery store on one's own and buy the ingredients""]",na,0,"The correct answer is 1. park along the street, as it was learned that a tight budget has been imposed by the restaurant owner for the roast beef recipe to be served at the picnic. The restaurant owner wants to ensure that they can deliver their roast beef to the customers without any issues and also want to make sure that they have enough ingredients in stock so that they can prepare a delicious meal for the guests.",False
+visit the desert,hate connecting flights,"['neither option are applicable for the current situation', 'purchase a plane ticket to a major city but far from the desert', 'purchase a plane ticket to a small city but right next to the desert']",hard,1,The correct answer is 2. Purchase a plane ticket to a small city but right next to the desert.,False
+visit the desert,have a long-time friend living in that major city,"['neither option are applicable for the current situation', 'purchase a plane ticket to a major city but far from the desert', 'purchase a plane ticket to a small city but right next to the desert']",medium,1,"The correct answer is 1. park along the street, as it's not applicable in this scenario because the goal of visiting the desert is to go out for a picnic. The context states that having a long-time friend living in the major city means there are no options available for visiting the desert.",True
+visit the desert,reall look forward to the first time ever in desert,"['neither option are applicable for the current situation', 'purchase a plane ticket to a major city but far from the desert', 'purchase a plane ticket to a small city but right next to the desert']",na,0,The correct answer is 2. Purchase a plane ticket to a small city but right next to the desert.,False
+speak a lot of languages,do not have ebook devices,"['neither option are applicable for the current situation', 'request a sample before buying an e-book', 'order a paper copy of the language book from amazon']",easy,2,The correct answer is 2. order a paper copy of the language book from Amazon,True
+speak a lot of languages,enjoy reading paper books,"['neither option are applicable for the current situation', 'request a sample before buying an e-book', 'order a paper copy of the language book from amazon']",easy,2,The correct answer is 2. order a paper copy of the language book from Amazon,True
+speak a lot of languages,want to save money,"['neither option are applicable for the current situation', 'request a sample before buying an e-book', 'order a paper copy of the language book from amazon']",easy,1,The correct answer is 2. order a paper copy of the language book from Amazon,False
+speak a lot of languages,want to try out different languages before committing,"['neither option are applicable for the current situation', 'request a sample before buying an e-book', 'order a paper copy of the language book from amazon']",medium,1,The correct answer is 2. order a paper copy of the language book from Amazon,False
+speak a lot of languages,has prime membership and discount for either paper book or ebook,"['neither option are applicable for the current situation', 'request a sample before buying an e-book', 'order a paper copy of the language book from amazon']",na,0,The correct answer is 2. Order a paper copy of the language book from Amazon.,False
+read about the heatwave in the paper,have a huge deck of paper to read,"['neither option are applicable for the current situation', 'only looking at the social news section', 'read through all pages for news about heatwave']",medium,1,The correct answer is 2. Read through all pages for news about heatwave.,False
+read about the heatwave in the paper,have a tight schedule,"['neither option are applicable for the current situation', 'only looking at the social news section', 'read through all pages for news about heatwave']",medium,1,The correct answer is 2. Read through all pages for news about heatwave.,False
+read about the heatwave in the paper,need detail information for a homework essay,"['neither option are applicable for the current situation', 'only looking at the social news section', 'read through all pages for news about heatwave']",easy,2,The correct answer is 2. Read through all pages for news about heatwave.,True
+read about the heatwave in the paper,want to learn heatwave from different perspectives,"['neither option are applicable for the current situation', 'only looking at the social news section', 'read through all pages for news about heatwave']",easy,2,The correct answer is 2. Read through all pages for news about heatwave,True
+have a cake,do not have containers for extra cakes,"['neither option are applicable for the current situation', 'pick ingredients that is just enough for one cake', 'pick ingredients that is enough for a few cakes']",medium,1,"The correct answer to the question ""What should I do if I have no containers for extra cakes?"" would be:
+
+1. Pick ingredients that are just enough for one cake.
+2. Pick ingredients that is enough for a few cakes.
+
+In this scenario, you don't need any additional items like extra cups or other extras to make the cake special and delicious.",True
+have a cake,is first time trying the recipe,"['neither option are applicable for the current situation', 'pick ingredients that is just enough for one cake', 'pick ingredients that is enough for a few cakes']",hard,1,"The correct answer to the question ""What should I do if I am unable to find a place to eat?"" would be:
+
+1. park along the street
+2. try to park inside the park
+
+Choose your answer based on the information provided in the context, and then choose the appropriate option from the given options (0 or 1).",True
+have a cake,plan to eat the cake everyday in following week,"['neither option are applicable for the current situation', 'pick ingredients that is just enough for one cake', 'pick ingredients that is enough for a few cakes']",easy,2,"The correct answer to the question ""What should I do if I am unable to find a place to eat?"" would be:
+
+1. park along the street
+2. pick ingredients that is just enough for one cake
+3. pick ingredients that is enough for a few cakes",True
+buy some bait,do not have a phone or computer,"['neither option are applicable for the current situation', 'ask the owner for bait suggestions', 'search online for reviews and advice for bait']",easy,1,The correct answer is 2. search online for reviews and advise for bait,False
+buy some bait,know the owner as a friend,"['neither option are applicable for the current situation', 'ask the owner for bait suggestions', 'search online for reviews and advice for bait']",medium,1,The correct answer is 2. Search online for reviews and advise for bait,False
+buy some bait,know the owner as an unreliable merchant,"['neither option are applicable for the current situation', 'ask the owner for bait suggestions', 'search online for reviews and advice for bait']",medium,2,The correct answer is 2. Search online for reviews and advise for bait,True
+buy some bait,need unbiased suggestions,"['neither option are applicable for the current situation', 'ask the owner for bait suggestions', 'search online for reviews and advice for bait']",medium,2,"The correct answer is 1. park along the street, as it's a good option to get some food without having to go outside or walk around in the rain.",False
+buy some bait,enjoy fishing as a hobby,"['neither option are applicable for the current situation', 'ask the owner for bait suggestions', 'search online for reviews and advice for bait']",na,0,The correct answer is 2. Search online for reviews and advise for bait,False
+try making bagels,enjoy cooking complex recipes,"['neither option are applicable for the current situation', 'take notes on the easy recipes of making bagels', 'take notes on the delicious but difficult recipes of making bagels']",easy,2,The correct answer is 2. take notes on the easy recipes of making bagels.,True
+try making bagels,have a tight daily routine,"['neither option are applicable for the current situation', 'take notes on the easy recipes of making bagels', 'take notes on the delicious but difficult recipes of making bagels']",medium,1,The correct answer is 2. take notes on the easy recipes of making bagels.,False
+try making bagels,want to take on challenges,"['neither option are applicable for the current situation', 'take notes on the easy recipes of making bagels', 'take notes on the delicious but difficult recipes of making bagels']",easy,2,The correct answer is 2. Take notes on the easy recipes of making bagels.,True
+try making bagels,enjoy eating bagels,"['neither option are applicable for the current situation', 'take notes on the easy recipes of making bagels', 'take notes on the delicious but difficult recipes of making bagels']",na,0,The correct answer is 2. take notes on the easy recipes of making bagels.,False
+set up table,have a fragile table structure,"['neither option are applicable for the current situation', 'use a moving cart to move the table', 'lift the table up and move the table']",medium,1,"The correct answer is 1. park along the street, as it's not applicable in this scenario because there are no tables available to set up at the location.",True
+set up table,see a very narrow room entrance,"['neither option are applicable for the current situation', 'use a moving cart to move the table', 'lift the table up and move the table']",hard,2,"The correct answer is 1. park along the street, as it's not applicable in this scenario because there are no tables available to be set up.",False
+set up table,bought the table at a very good price (huge discount),"['neither option are applicable for the current situation', 'use a moving cart to move the table', 'lift the table up and move the table']",na,0,"The correct answer is 2. Lift the table up and move it up and down, but not all of them will be moved to a new location.",False
+start lifting weights to build muscle,need encouragement for the workout,"['neither option are applicable for the current situation', 'go to the gym on your own', 'find someone in your community or social media to go with you']",medium,2,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. park along the street
+2. try to park inside the park
+3. go to the gym on your own",True
+start lifting weights to build muscle,need guidance on a workout,"['neither option are applicable for the current situation', 'go to the gym on your own', 'find someone in your community or social media to go with you']",medium,2,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. park along the street
+2. try to park inside the park
+3. go to the gym on your own",True
+start lifting weights to build muscle,want to build-up muscle secretly,"['neither option are applicable for the current situation', 'go to the gym on your own', 'find someone in your community or social media to go with you']",medium,1,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. park along the street
+2. try to park inside the park
+3. go to the gym on your own",True
+start lifting weights to build muscle,want to have a flexible gym schedule,"['neither option are applicable for the current situation', 'go to the gym on your own', 'find someone in your community or social media to go with you']",hard,1,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. park along the street
+2. try to park inside the park
+3. find someone in your community or social media to go with you
+4. walk around the city and see if there is a gym nearby",True
+start lifting weights to build muscle,enjoy workout as a way of relexation,"['neither option are applicable for the current situation', 'go to the gym on your own', 'find someone in your community or social media to go with you']",na,0,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. park along the street
+2. try to park inside the park
+3. find someone in your community or social media to go with you
+4. enjoy workout as a way of relexation",True
+start a diet,have a tight daily schedule,"['neither option are applicable for the current situation', 'make a plan that prefers delicious foods over convenient foods', 'make a plan that prefers convenient foods over delicious foods']",easy,2,The correct answer is 2. Make a plan that prefers delicious foods over convenient foods.,True
+start a diet,live on a high-quality lifestyle,"['neither option are applicable for the current situation', 'make a plan that prefers delicious foods over convenient foods', 'make a plan that prefers convenient foods over delicious foods']",easy,1,The correct answer is 2. Make a plan that prefers convenient foods over delicious foods.,False
+start a diet,want to avoid processed food,"['neither option are applicable for the current situation', 'make a plan that prefers delicious foods over convenient foods', 'make a plan that prefers convenient foods over delicious foods']",medium,1,The correct answer is 2. Make a plan that prefers convenient foods over delicious foods.,False
+start a diet,want to save money,"['neither option are applicable for the current situation', 'make a plan that prefers delicious foods over convenient foods', 'make a plan that prefers convenient foods over delicious foods']",easy,2,"You need to choose the correct answer from the following options:
+
+0. neither option are applicable for the current situation
+1. park along the street
+2. try to park inside the park
+3. make a plan that prefers delicious foods over convenient foods",True
+start a diet,start a die to keep fit,"['neither option are applicable for the current situation', 'make a plan that prefers delicious foods over convenient foods', 'make a plan that prefers convenient foods over delicious foods']",na,0,The correct answer is 2. Make a plan that prefers convenient foods over delicious foods.,False
+fuel a car,have a racing car,"['neither option are applicable for the current situation', 'select the cheapest gas option', 'select the premium gas option']",medium,2,"The correct answer is 1. park along the street, as it's a more affordable option compared to the other two options.",False
+fuel a car,want to save money for an aspirational trip,"['neither option are applicable for the current situation', 'select the cheapest gas option', 'select the premium gas option']",easy,1,"The correct answer is 1. park along the street, as it's a more affordable option compared to the other two options.",True
+practice singing the song,have the concert in half an hour,"['neither option are applicable for the current situation', 'practice singing with a friend', ""practice on one's own""]",medium,2,"The correct answer is 2. Practice singing with a friend, not just practice alone.",True
+practice singing the song,need a sense of companion,"['neither option are applicable for the current situation', 'practice singing with a friend', ""practice on one's own""]",easy,1,"The correct answer is 1. park along the street, as it provides an opportunity to practice singing with a friend while also having fun in nature.",True
+practice singing the song,need feedback,"['neither option are applicable for the current situation', 'practice singing with a friend', ""practice on one's own""]",easy,1,"The correct answer is 2. Practice singing with a friend, not just on your own.",False
+practice singing the song,want to surprise everyone else,"['neither option are applicable for the current situation', 'practice singing with a friend', ""practice on one's own""]",medium,2,"The correct answer is 2. Practice singing with a friend, not just on your own.",True
+practice singing the song,really look forward to the show as it is the final show of high school,"['neither option are applicable for the current situation', 'practice singing with a friend', ""practice on one's own""]",na,0,"The correct answer is 2. Practice singing with a friend, not just practice on your own.",False
+pay for adoption fee,want to build a deep bound with the animal,"['neither option are applicable for the current situation', 'adopt a young animal (e.g. puppy or kitty)', 'adopt an adult animal (e.g. adult dog or cat)']",medium,1,The correct answer is 1. park along the street.,True
+pay for adoption fee,worry about the challenge of taking care of a pet,"['neither option are applicable for the current situation', 'adopt a young animal (e.g. puppy or kitty)', 'adopt an adult animal (e.g. adult dog or cat)']",medium,2,The correct answer is 1. park along the street.,False
+get some lunch,have some dishes being very spicy and some are very sweet,"['neither option are applicable for the current situation', 'combine the leftovers into one plate and microwave at the same time', 'microwave each dish on itself']",hard,2,"The correct answer is 2. Combine the leftovers into one plate and microwave them simultaneously, then serve them to the group.",True
+get some lunch,is on a tight budget for food,"['neither option are applicable for the current situation', 'combine the leftovers into one plate and microwave at the same time', 'microwave each dish on itself']",na,0,The correct answer is 2. Microwave each dish on itself.,False

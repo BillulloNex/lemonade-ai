@@ -1,3 +1,4 @@
+
 from pathlib import Path
 import json
 # Define the directory path
@@ -10,15 +11,17 @@ datasets = []
 # Print each CSV file
 for csv_file in csv_files:
     with open(csv_file, 'r') as file:
+        print(csv_file.name)
         data = json.loads(file.read())
         situation = {}
-        situation['options'] = {}
+        situation['options'] = []
         situation['scenarios'] = []
+        print(data['goal'])
         situation['goal'] = data['goal']
         situation['step'] = data['branching_info']['branching_step']
-        situation['options']['1'] = data['branching_info']['option 1']
-        situation['options']['2'] = data['branching_info']['option 2']
-        situation['options']['0'] = 'neither option are applicable for the current situation'
+        situation['options'].append('neither option are applicable for the current situation')
+        situation['options'].append(data['branching_info']['option 1'])
+        situation['options'].append(data['branching_info']['option 2'])
         scenarios = data['branching_info']['freeform_ra']
         for scenario in scenarios:
             example = {}
