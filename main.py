@@ -1,9 +1,9 @@
 import os
 import json
 from knowledge.ingest import read_txt
-from llm.ollama_func import get_chat_response, stream_chat_response
+from llm.ollama_func import model
 config = {}
-
+atlas = model(model = 'qwen2.5:0.5b')
 def init():
     config_dir = "config"
     for filename in os.listdir(config_dir):
@@ -15,12 +15,11 @@ def init():
                 config[var_name] = json.load(f)
 
 def loop():
-    print('looping shit')
-    data = read_txt('knowledge/data/joe-rogan-trump-interview.txt')
-    stream_chat_response(
-        model=config['app_config']['llmName'], 
-        prompt= read_txt('prompt/recipes/create_5_sentence_recipe/system.md') + data
-        )
+    while True:
+        prompt = input("You: ")
+        print("Atlas: ")
+        atlas.stream_chat_response(prompt= prompt)
+        print('\n')
     #print(data)
 
 init()
