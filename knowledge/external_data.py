@@ -10,7 +10,6 @@ class WorldKnowledge:
         self.source = source
         self.data = []
         
-    
     def search(self, query):
         url_list = []
         scraped_data = []
@@ -31,8 +30,7 @@ class WorldKnowledge:
         return self.data        
     
     def cache(url, result):
-        
-    
+        pass
     def ask():
         pass
 

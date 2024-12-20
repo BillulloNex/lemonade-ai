@@ -1,6 +1,5 @@
 import os
 import json
-from knowledge.ingest import read_txt
 from llm.ollama_func import model
 from tool.tavily_web import tavily_web
 
