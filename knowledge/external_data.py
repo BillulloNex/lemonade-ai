@@ -18,11 +18,8 @@ class WorldKnowledge:
             url_list.append(result)
             web_reader = WebPageReader([result])
             try:
-                print(f'scraping {result}')
                 text_content = web_reader.get_content()
-                print(text_content)
                 scraped_data.append(text_content)
-                print(f'processed: {text_content}')
             except:
                 print('failed to scrape')
                 continue
@@ -30,11 +27,11 @@ class WorldKnowledge:
         self.data = scraped_data
         print('donezo')
     def read(self):
-        print(self.data)
+        print(self.data[0])
         return self.data        
     
-    def cache():
-        pass
+    def cache(url, result):
+        
     
     def ask():
         pass
