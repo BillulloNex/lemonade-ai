@@ -2,15 +2,11 @@ import os
 import json
 from llm.ollama_func import model
 from tool.tavily_web import tavily_web
-
-from llmware.models import ModelCatalog
-atlas = ModelCatalog().load_model("slim-nli-tool")
-
-
-
+from knowledge.external_data import WorldKnowledge
 
 config = {}
-#atlas = model(model = 'smollm2:360m')
+atlas = model(model = 'qwen2.5:0.5b')
+knowledge = WorldKnowledge()
 def init():
     config_dir = "config"
     for filename in os.listdir(config_dir):
@@ -25,14 +21,13 @@ def loop():
     search = tavily_web()
     while True:
         prompt = input("You: ")
-        web_result = search.qna_search(prompt)
+        web_result = knowledge.search(prompt)
         print(f'Context: {web_result}')
         print("Atlas: ")
-        output = atlas.inference(f" Given this context: {web_result}, answer this question: {[prompt]}")
-        print(output)        
+        output = atlas.stream_chat_response(f" Given this context: {web_result}, answer this question: {[prompt]}")
         print('\n')
     #print(data)
 
 init()
-print(config)
+# print(config)
 loop()

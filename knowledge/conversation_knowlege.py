@@ -43,5 +43,3 @@ def example():
     chat.add_message("assistant", "You're welcome! Let me know if you have more questions.")
     chat.summarize()
     print(chat.messages)
-
-example()
