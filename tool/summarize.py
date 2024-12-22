@@ -1,5 +1,5 @@
 from transformers import pipeline
-from lemonade_ai.knowledge.external_data import WorldKnowledge
+
 summarizer = pipeline("summarization", model="Falconsai/text_summarization")
 
 me = WorldKnowledge()

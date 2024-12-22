@@ -43,8 +43,9 @@ class WorldKnowledge:
                 continue
             print(f"Scraped {result}")
         self.data = scraped_data
+        print(scraped_data)[0]
         return scraped_data
-        print(scraped_data)
+        
         print('donezo')
     def read(self):
         print(self.data[0])
@@ -55,6 +56,6 @@ class WorldKnowledge:
     def ask():
         pass
 
-# ok = WorldKnowledge()
-# ok.search("who is the president of the united states")
-# ok.read()
+ok = WorldKnowledge()
+ok.search("who is the president of the united states")
+ok.read()
